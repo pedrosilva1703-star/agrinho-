@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho - Consumo Consciente e E-Lixo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Projeto Agrinho 2026</h1>
+            <p>Equilíbrio entre Consumo e Produção: O Desafio do Lixo Eletrônico</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="conteudo">
+            <h2>Consumo Consciente de E-Lixo</h2>
+            <p>A tecnologia avança rapidamente, nos estimulando a trocar de celular, computador e videogame o tempo todo. Porém, a produção em massa e o descarte acelerado criam um grave desequilíbrio ambiental.</p>
+            <p>O <strong>consumo consciente</strong> nos convida a refletir antes de comprar: Eu realmente preciso deste aparelho novo? Se a resposta for sim, devemos garantir que o antigo tenha o destino correto, permitindo que seus componentes sejam reciclados de forma segura.</p>
+        </section>
+
+        <section class="video-container">
+            <h2>Aprofunde seu Conhecimento</h2>
+            <div class="video-wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/52pfRQawboA?si=TLX-0rQvprg6YW1_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="quiz">
+            <h2>Desafio Agrinho: Teste seus conhecimentos!</h2>
+            <p class="pergunta">Uma bateria antiga de celular inchou e parou de funcionar. Qual é o descarte correto para ela de acordo com o equilíbrio entre consumo e produção?</p>
+            
+            <div class="alternativas">
+                <button onclick="verificarResposta('A')">A) Jogar no lixo reciclável comum de plástico.</button>
+                <button onclick="verificarResposta('B')">B) Levar a um ponto de coleta específico para e-lixo ou logística reversa.</button>
+                <button onclick="verificarResposta('C')">C) Enterrar no quintal para não ocupar espaço em casa.</button>
+                <button onclick="verificarResposta('D')">D) Guardar em uma gaveta por tempo indeterminado.</button>
+            </div>
+
+            <div id="resultado" class="resultado-oculto"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto Educativo Agrinho &copy; 2026 - Sustentabilidade e Tecnologia de Mãos Dadas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
